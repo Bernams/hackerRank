@@ -1,0 +1,5 @@
+Python if-else exercise:
+if (2 <= n <= 5 or n > 20 )and (n % 2 == 0):
+        print "Not Weird"
+    else:
+        print "Weird"
