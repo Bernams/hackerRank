@@ -1,5 +1,37 @@
-Python if-else exercise:
+Python: If-Else Exercise:
 if (2 <= n <= 5 or n > 20 )and (n % 2 == 0):
         print "Not Weird"
     else:
         print "Weird"
+/------------------------------------\
+Python: Arithmetic Operation Exercise:
+    print a+b
+    print a-b
+    print a*b
+/------------------------------------\
+Python: Division Exercise:
+    print a//b
+    print a/b
+/------------------------------------\
+Python: Loops Exercise:
+    for i in range (n):
+        print i * i
+/------------------------------------\
+Python: Write a function Exercise:
+leap = False
+    if year % 4 == 0 :
+        if year % 100 == 0:
+            if year % 400 == 0:
+                leap = True
+            return leap
+        leap = True
+    return leap
+/------------------------------------\
+Python: Print Function:
+res = str()
+    for i in range (1, n+1):
+        str1 = str(i)
+        res += str1
+   
+    print(res) 
+/------------------------------------\
